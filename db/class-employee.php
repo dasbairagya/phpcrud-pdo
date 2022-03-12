@@ -6,7 +6,7 @@ class Employee{
     session_start();
     $servername = "localhost";
     $username = "root";
-    $password = "@Ece11801@";
+    $password = "";
     $db = "employee";
       try {
           $this->conn = new PDO("mysql:host=$servername;dbname=$db", $username, $password);
